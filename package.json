@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel --https",
-    "build": "parcel build"
+    "build": "parcel build --public-url ./"
   },
   "author": "Zappar Limited",
   "license": "MIT",
@@ -14,8 +14,8 @@
     "typescript": "^4.6.2"
   },
   "dependencies": {
-    "@babylonjs/core": "^5.21.0",
-    "@babylonjs/loaders": "^5.21.0",
+    "@babylonjs/core": "^5.43.0",
+    "@babylonjs/loaders": "^5.43.0",
     "@zappar/zappar-babylonjs-es6": "^2.0.0"
   }
 }
